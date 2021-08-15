@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background: whitesmoke;
+    width: 60%;
+    margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px 50px;
+}
+.container .title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 65px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container .title span:nth-child(1){
+    font-size: 24px;
+    font-weight: 500px;
+
+}
+.container .title span:nth-child(2){
+    width: 200px;
+    background-color: rgba(228, 228, 228, 0.5);
+    color: #808191;
+    padding: 17px;
+    border-radius: 25px;
+}
+.container .body{
+    display: flex;
+    height: 650px;
+    justify-content: space-between;
+}
+.container .body .left{
+    width: 48%;
+    /* background-image: url('https://assets.mycast.io/posters/genshin-impact-fan-casting-poster-81081-large.jpg?1612457377'); */ 
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.25)), url('https://assets.mycast.io/posters/genshin-impact-fan-casting-poster-81081-large.jpg?1612457377');
+    border-radius: 30px;
+    padding: 35px;
+    position: relative;
+}
+.container .body .right{
+    width: 48%;
+    border-radius: 30px;
+}
+.container .body .left .arrow{
+    display: flex;
+}
+.container .body .left .arrow>*{
+background-color: #fff;
+width: 40px;
+height: 40px;
+margin: 0px 5px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+cursor: pointer;
+}
+.container .body .left .arrow>*:hover{
+    background-color: #6c5dd6;
+    color: white;
+    transition: 0.3s;
+    }
+.container .body .left .name{
+    position: absolute;
+    bottom: 6%;    
+}
+.container .body .left .name span{
+    font-size: 13px;
+    font-weight: 700px;
+    background: rgba(108, 93, 211, 0.5);
+    padding: 3px 15px;
+    border-radius: 15px;
+    color: #fff;
+} 
+#title_name_game{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.container .body .view{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+.container .name button{
+    width: 120px;
+    border-radius: 16px;
+    padding: 0px 20px;
+    background-color: #6C5DD3;
+    height: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+}
+.container .name button:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+.container .right .item .item_left{
+    width: 30px;
+    
+}
