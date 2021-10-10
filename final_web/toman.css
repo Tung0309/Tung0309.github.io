@@ -31,9 +31,9 @@ header nav ul{
 .container{
     width: 80%;
     background-color:#34495e;
-    height:1500px ;
+    height: 100vh;
     margin: 50px auto;
-    border: 2px solid red;
+    border: 2px solid rgb(87, 16, 16);
     display:flex;
 }
 .container .left{
@@ -51,7 +51,8 @@ header nav ul{
     height: 100px;
     margin: auto;
     margin-top:30px;
-    border: 2px solid red;
+    border: 2px solid rgb(87, 16, 16);
+    position: relative;
 }
 .container .right{
     background-color:#2c3e50;
@@ -71,3 +72,50 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.container .left .name{
+    margin: 0;
+    padding: 15px 15px;
+}
+.container .left .s4{
+    margin: 0;
+    padding: 15px 30px;
+}
+.container .left .s5{
+    margin: 0;
+    padding: 15px 30px;
+}
+.container .left .s5 .nicep{
+    margin: 0;
+    padding: 15px 50px;
+}
+.container .left .s6{
+    margin: 0;
+    padding: 15px 30px;
+} 
+.container .left .s6 .ul{
+    margin: 0;
+    padding: 15px 60px;
+}
+.container .left .s7{
+    margin: 0;
+    padding: 15px 30px;
+}
+.container .left .s7 .trivia1{
+    margin: 0;
+    padding: 15px 50px;
+}
+.container .left .s7 .trivia2{
+    margin: 0;
+    padding: 15px 60px;
+}
+.container .left .s7 .trivia3{
+    margin: 0;
+    padding: 15px 70px;
+}
+.container .left .s2 .conner{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} 
+
+
