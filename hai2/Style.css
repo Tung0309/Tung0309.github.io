@@ -90,7 +90,16 @@ cursor: pointer;
     font-size: 12px;
     font-family: 'Inter', sans-serif;
 }
-.container .name button{
+.container .body .view::before{
+    content: " ";
+    width: 9px;
+    height: 9px;
+    background-color: #7fba7a;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.container .body .name button{
     width: 120px;
     border-radius: 16px;
     padding: 0px 20px;
@@ -102,13 +111,87 @@ cursor: pointer;
     font-weight: 700;
     cursor: pointer;
     transition: 1s;
+    border: none;
+    margin-top: 10px
 }
 .container .name button:hover{
     background-color: blue;
     color: white;
     transition: 1s;
 }
-.container .right .item .item_left{
-    width: 30px;
-    
+.right .item{
+    width: 95%;
+    display: flex;
+    height: 210px;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 25px;
+    margin-bottom: 10px;
 }
+.right .item .item_left{
+    width: 55%;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 100%;
+    background-image: url("https://coolthemestores.com/wp-content/uploads/2020/12/honkai-impact-3rd-feature.jpg");
+    background-size: 100%;
+    transition: 1s;
+    opacity: 0.8;
+}
+.right .item .item_left:hover{
+    background-size: 105%;
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+.right .item .item_right{
+    width: 45%;
+    height: 100%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right .item .item_right span {
+    color: #3f8cff;
+    background-color: rgba(108, 93, 211, 0.1);;
+    width: fit-content;
+    padding: 3px 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.right .item .item_right p:nth-child(2){
+    color: #11142d;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 9px;
+    transition: 0.5s;
+}
+.right .item .item_right p:nth-child(2):hover{
+    color:  #6C5DD3;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.right .item .item_right p:nth-child(3){
+    color: #11142d;
+    margin-bottom: 12px;
+}
+.right .item .item_right button{
+    background-color: rgba(228, 228, 228, 0.5);
+    color: #11142d;
+    width: fit-content;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.right .item .item_right button:hover{
+   background-color: #6C5DD3;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
