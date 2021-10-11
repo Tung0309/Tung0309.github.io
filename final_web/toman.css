@@ -121,5 +121,9 @@ body{
     bottom: 0;
     right: 0;
 } 
+.container .right .img{
+    margin: 0%;
+    padding: 25px 25px;
 
+}
 
