@@ -264,8 +264,7 @@ h1 {
   font-size: 15px;
 }
 
-
-.des{
+.des {
   height: 250px;
   overflow-y: hidden;
   text-overflow: ellipsis;
