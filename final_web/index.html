@@ -7,6 +7,11 @@
     <title>Tokyo Manji</title>
     <link rel="stylesheet" href="./toman.css">
     <link rel="shortcut icon" href="img/Toman_Symbol (1).jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     <header>
@@ -19,17 +24,17 @@
             <li>
               <div class="dropdown">
                Information
-                <div class="dropdown_content">
+                <ul class="dropdown_content">
                   <li><a href="#About_us">About us</a></li>
                   <li><a href="#_History">History</a></li>
                   <li><a href="#_Structure">Structure</a></li>
                   <li><a href="#_Battles">Battles</a></li>
                   <li><a href="#_Trivia">Trivia</a></li>
-                </div>
+                </ulq >
             </div>
             </li>
             <li><a href="./card.html">Member</a></li>
-            <li><a href="">Season 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=f6wxFyUQfbo">Season 1</a></li>
           </ul>
         </nav>
       </header>
@@ -38,7 +43,7 @@
             <div class="name">
               <p>Tokyo Manji website</p>
             </div>
-          <div class="s2">
+          <div data-aos="fade-down" class="s2">
             <p>
               “ 天上天下，唯我独尊: Throughout the heavens, I alone am the honored
               one. ”
@@ -47,12 +52,17 @@
               <p>— Toman's Manifesto</p>
             </div>
           </div> 
-          <div class="s3" id="About_us">
+          <div class="s3" id="About_us" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
               <h2>About us</h2>
-              <h1>Tokyo Manji Gang</h1>
+              <h1 class="animate__animated animate__rubberBand animate__delay-2s">Tokyo Manji Gang</h1>
               <p>The Tokyo Manji Gang (東京卍會, Tōkyō Manji-Kai?), otherwise known as Toman, was a biker gang lead by Manjiro "Mikey" Sano & Ken "Draken" Ryuguji.</p>
             </div>
-          <div class="s4" id="_History">
+          <div class="s4" id="_History" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500">
             <h2>History</h2>
             <p>The gang's initial identity was a grade-school biker friend group formed by six middle-school friends from schools around Tokyo.<br>
 
@@ -64,7 +74,9 @@
               A few days before Mikey's birthday, Kazutora wants to steal a better bike for Mikey and convinces a begrudging Baji to go along with them. They almost steal the bike, but the shop owner catches them. To prevent themselves from getting arrested,<br> 
               Kazutora hits him with a wrench, but accidentally kills him. Kazutora snaps from the ordeal and is sent to a reform school. The naive and pure Toman was no more.</p>
           </div>
-          <div class="s5" id="_Structure">
+          <div class="s5" id="_Structure" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <h2>Structure</h2>
             <p>Toman is led by Mikey and Draken as leader and vice-leader, respectively. There are five divisions which comprises around 20 guys each.</p>
             <div class="nicep">
@@ -84,7 +96,9 @@
                 After Hanma left Toman, he took his subordinates with him and the division was disbanded.</p>
             </div>
           </div>
-          <div class="s6" id="_Battles">
+          <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="s6" id="_Battles">
             <h2>Battles</h2>
             <div class="ul">
               <ul>
@@ -96,7 +110,9 @@
               </ul>
             </div>
           </div>
-          <div class="s7" id="_Trivia">
+          <div  data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="s7" id="_Trivia">
             <h2>Trivia</h2>
             <div class="trivia1">
               <li>Manji (卍) - crux gammata also known as swastika symbol, is an ancient religious icon in the cultures of<br>
@@ -114,7 +130,7 @@
                 and is called the manji in Japanese.<br>
               </li>
             </div>
-            <div class="trivia3">
+            <div  class="trivia3">
               <li>
                 The arms of the swastika, which point in a clockwise direction (卐), are generally considered a<br>
                 solar symbol. It was this version (the hakenkreuz) that was perverted by the Nazis. The<br>
@@ -124,7 +140,7 @@
           </div>
         </div> 
         <div class="right">
-          <div class="img">
+          <div data-aos="zoom-out" class="img">
             <img src="./img/6-pemuda-pendiri-geng-tokyo-manji.jpg" alt="" width="99%" height="99%">
             <img src="./img/7e176988702ec4b3d71da360f4697058.jpg" alt="" width="99%" height="99%">
             <img src="./img/1155003.jpg" alt="" width="99%" height="99%">
@@ -133,5 +149,10 @@
           </div>
         </div>
       </div>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
