@@ -1,0 +1,13 @@
+#header {
+  width: 500px;
+  height: 300px;
+}
+div {
+  padding: 50px;
+}
+#time {
+  background-color: gray;
+  font-size: 50px;
+  color: pink;
+  padding: 10px 10px;
+}
